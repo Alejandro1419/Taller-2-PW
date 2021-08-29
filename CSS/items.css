@@ -50,53 +50,51 @@ body {
   border-radius: 8px;
   margin: 20px;
   padding-left: 50px;
-  padding-bottom: 600px;
+  padding-bottom: 400px;
 }
 #Animerch{
     display: inline-block;
     width: 120px;
     line-height: 200px;}
 
-#uwu{
+.uwu{
     display: inline-block;
-    padding-left: 20px;
-    width: 200px;
+    padding-left: 30px;
+    width: 190px;
     line-height: 320px;
     position:absolute;
-    padding-top: 40px;}
-#owo{
+    padding-top: 20px;
+}
+.owo{
     display: inline-block;
     padding-left: 340px;
     width: 200px;
     line-height: 320px;
     position:absolute;
-    padding-top: 40px;}
-#ewe{
+    padding-top: 20px;}
+.ewe{
     display: inline-block;
     padding-left: 650px;
     width: 200px;
     line-height: 320px;
     position:absolute;
-    padding-top: 40px;}
+    padding-top: 20px;}
     #a{
         display: inline-block;
         font-size: 20px;
         padding-left: 20px;
-        padding-top: 20px;
         color: rgb(184, 21, 21);
     }
     #b{
         display: inline-block;
         font-size: 20px;
         padding-left: 240px;
-        padding-top: 20px;
         color: rgb(184, 21, 21);
     }
     #c{
         display: inline-block;
         font-size: 20px;
         padding-left: 320px;
-        padding-top: 20px;
         color: rgb(184, 21, 21);
     }
 #gawr{
@@ -108,15 +106,51 @@ body {
 #Chainsaw{
     display: inline-block;
     font-size: 20px;
-    padding-left: 100px;
+    padding-left: 60px;
     color: rgb(17, 124, 31);
     }
 #Rei{
     display: inline-block;
     font-size: 20px;
-    padding-left: 110px;
+    padding-left: 90px;
     color: rgb(25, 150, 143);
     }
+#Ganyu{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 300px;
+  color: rgb(5, 146, 139);
+}
+#Megumin{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 120px;
+  color: rgb(156, 9, 33);}
+#KNY{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 100px;
+  color: rgb(22, 10, 185);}
+#SUS{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 300px;
+  color: rgb(128, 5, 5);
+}
+#Touhou{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 40px;
+  color: rgb(148, 146, 8)
+}
+#Paimon{
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 40px;
+  color: rgb(139, 7, 128)
+}
 .ca{
     text-decoration: none;
     color:black;
@@ -125,7 +159,8 @@ body {
     background-color: rgb(30, 118, 158);
     border-radius: 10px;
     margin-left: 80px;
-    margin-bottom: 20px;
+    position: relative;
+    top:300px;
   }
 .cb{
     text-decoration: none;
@@ -135,6 +170,8 @@ body {
     background-color: rgb(30, 118, 158);
     border-radius: 10px;
     margin-left: 250px; 
+    position: relative;
+    top:300px;
   }
 .cc{
     text-decoration: none;
@@ -144,4 +181,15 @@ body {
     background-color: rgb(30, 118, 158);
     border-radius: 10px;
     margin-left: 245px;
+    position: relative;
+    top:300px;
+  }
+  #footer{
+    background-color: rgb(161, 198, 212);
+    width: 1300px;
+    text-align: center;
+    border: 5px solid rgb(7, 78, 110);
+    border-radius: 8px;
+    padding: 50x;
+    margin: 20px;
   }

@@ -1,3 +1,83 @@
 <html>
+    <head>
+        <title>compras</title>
+        <link rel="stylesheet" type="text/CSS" href="CSS/formulario.css" media="screen"/>
+    </head>
+        <body>
+            <div class="principal-bar">
+                <img src="Imagenes/animerch.png" id="Animerch">
+                <h1>ANIMERCH</h1>
+                <ul class="nav">
+                <li><a href="items.html">Mercancía</a></li>
+                <li><a href="index.html" id="link-space">Pagina principal</a></li>
+                </ul>
+            </div>
+            <div class="Parrafos">
+            </br>
+            <h2 id="page-tittle">Formulario de compra</h2>
+            </br>
+            <form class="formulario" action="Gracias.html" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <div>Datos personales</div></br>
+                <label for="nombre">Nombre Completo:</label></br>
+                <input type="text" name="nombre"></br></br>
+                <label for="telefono">Teléfono:</label></br>
+                <input type="number" name="telefono"></br></br>
+                <label for="correo">Correo electronico</label></br>
+                <input type="text" name="correo"></br></br>
+                <label for="seleccione el tipo de manga">seleccione el tipo de Producto:</label>
+                </br>
+                <select class="cars" name="cars">
+                    <option value="1">Seleccione una opcion</option>
+                  <option value="2">dakimura</option>
+                  <option value="3">Nendoroid</option>
+                  <option value="4">manga</option>
+                  <option value="5">peluche</option>
+                  <option value="6">llaveros</option>
+                  <option value="7">pines</option>
+                  <option value="8">stickers</option>
+                  <option value="9">figura coleccionable</option>
+
+                </select>
+                </br></br>
+                <label for="seleccione el tipo de manga">seleccione el Codigo del producto:</label>
+                </br>
+                <select class="cars" name="cars">
+                    <option value="dakimura">seleccione una opcion</option>
+                    <option value="dakimura">12384</option>
+                    <option value="Nendoroid">101</option>
+                    <option value="manga">manga</option>
+                    <option value="peluche">111</option>
+                    <option value="llaveros">llaveros</option>
+                    <option value="pines">pines</option>
+                    <option value="stickers">stickers</option>
+                    <option value="Figura coleccionable">figura coleccionable</option>
+                  </select>
+                </br></br>
+                <label for="tipo de medio de pago"> modalidad de pago:</label></br>
+                <select class="cars" name="cars">
+                    <option value="dakimura">seleccione una opcion</option>
+                    <option value="tarjeta de credito">tarjeta de credito</option>
+                    <option value="nequi">nequi</option>
+                    <option value="daviplata">daviplata</option>
+                    <option value="paypal">paypal</option>
+                  </select></br></br>
+                <label for="cuenta bancaria">digite su numero de cuenta bancaria</label></br>
+                <input type="password" name="cuenta bancaria"></br>
+                </fieldset>
+                </br><ul class="nav">
+                    <div id="botones">
+                        <li><input type="submit" value="Submit"></li>
+                        <li><input type="reset" name="limpiar" value="Borrar los datos introducidos" /></li>
+                        </ul>
+                    </div>
+                    
+            </form>
+            </div>
+
+        </body>
+        <footer id="footer">
+            <h2>"Derechos reservados jojo y asociados"</h2>
+        </footer>
     
 </html>
